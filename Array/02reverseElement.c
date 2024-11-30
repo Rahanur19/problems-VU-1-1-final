@@ -2,7 +2,7 @@
 
 #include <stdio.h>
 
-int main(){
+void main(){
     int temp, len, i, m, arr[]= {10, 20, 30, 40};
 
     len = sizeof(arr)/sizeof(arr[0]);
