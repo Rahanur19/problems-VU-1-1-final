@@ -8,4 +8,6 @@ int main(){
     count = sizeof(arr)/ sizeof(arr[0]);
 
     printf("The has %d number of elelmemnts.", count);
+
+    return 0;
 }
