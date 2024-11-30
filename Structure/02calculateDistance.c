@@ -7,7 +7,7 @@ void main() {
     int i;
     float distance;
 
-    struct book{
+    struct point{
         float x;
         float y;
     } p1, p2;
