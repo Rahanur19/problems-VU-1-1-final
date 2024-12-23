@@ -30,3 +30,4 @@ void main(){
 
     findMinMax(numbers, n);
 }
+
