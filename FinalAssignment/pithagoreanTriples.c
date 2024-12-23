@@ -4,8 +4,8 @@ void findPythagoreanTriplets(int start, int end) {
     int a, b, c;
     printf("Pythagorean Triplets within the range [%d, %d]:\n", start, end);
     for (a = start; a <= end; a++) {
-        for (b = start; b <= end; b++) {
-            for (c = start; c <= end; c++) {
+        for (b = a; b <= end; b++) {
+            for (c = b; c <= end; c++) {
                 if (a * a + b * b == c * c) {
                     printf("(%d, %d, %d)\n", a, b, c);
                 }

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-//test
+
 
 void playGuessingGame(int A, int B) {
     int randomNumber, guess, tries = 0, maxTries = 10;
